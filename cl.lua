@@ -24,3 +24,7 @@ Citizen.CreateThread(function()
         end
     end
 end)
+
+
+-- discord: ^adişş 🔥#5555
+-- ve ortak: RY#4444
