@@ -15,7 +15,7 @@ Citizen.CreateThread(function()
         if cross then 
             HideHudComponentThisFrame(14)
         elseif not cross then 
-            local ped = GetPlayerPed(-1)
+            local ped = PlayerPedId()
             local weapon = GetSelectedPedWeapon(ped)
     
             if weapon == GetHashKey("WEAPON_") then       
